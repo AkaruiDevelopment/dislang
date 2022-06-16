@@ -1,0 +1,22 @@
+{
+    "name": "dal",
+    "version": "1.0.0",
+    "description": "",
+    "main": "build/index.js",
+    "types": "build/index.d.ts",
+    "prepublish": "tsc",
+    "scripts": {
+        "test": "rm -r build && tsc && node build/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/JeffTheModder/dal.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/JeffTheModder/dal/issues"
+    },
+    "homepage": "https://github.com/JeffTheModder/dal#readme"
+}
