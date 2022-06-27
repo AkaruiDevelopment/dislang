@@ -10,13 +10,18 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/JeffTheModder/dal.git"
+        "url": "git+https://github.com/AkaruiDevelopment/dal.git"
     },
     "keywords": [],
-    "author": "",
+    "author": "AkaruiDevelopment",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/JeffTheModder/dal/issues"
+        "url": "https://github.com/AkaruiDevelopment/dal/issues"
     },
-    "homepage": "https://github.com/JeffTheModder/dal#readme"
+    "homepage": "https://github.com/AkaruiDevelopment/dal#readme",
+    "devDependencies": {
+        "@types/node": "^18.0.0",
+        "@types/pegjs": "^0.10.3",
+        "pegjs": "^0.10.0"
+    }
 }
